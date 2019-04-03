@@ -78,11 +78,11 @@ c3 = '11110010'  # 242
 - ÿ (Lowercase letter y with diaeresis)
 - ‗ (underline or underscore)
 
-(Check for yourself in the [Extended ASCII](https://theasciicode.com.ar/) table.)
+(Check for yourself in the [Extended ASCII](https://www.ascii-code.com/) table.)
 
 #### Notes:
 1. Python uses Unicode UTF-8 formatting for strings and characters, so it won't interpret ASCII automatically.
-2. The ASCII table contains only the first half of the characters that are represented with 8 bits, that is, only those which are represented with 7 bits. The [Extended ASCII](https://theasciicode.com.ar/) table contains the full list.
+2. The ASCII table contains only the first half of the characters that are represented with 8 bits, that is, only those which are represented with 7 bits. The [Extended ASCII](https://www.ascii-code.com/) table contains the full list.
 3. A lot of the ASCII characters most probably cannot be represented on the micro:bit without defining our own micro:bit Images for them.
 
 ## Submission

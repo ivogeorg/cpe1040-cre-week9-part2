@@ -73,10 +73,10 @@ c3 = '11110010'  # 242
 ```
 
 #### Value
-Å (Capital letter A with a ring)
-T (Capital letter T)
-ÿ (Lowercase letter y with diaeresis)
-‗ (underline or underscore)
+- Å (Capital letter A with a ring)
+- T (Capital letter T)
+- ÿ (Lowercase letter y with diaeresis)
+- ‗ (underline or underscore)
 
 (Check for yourself in the [Extended ASCII](https://theasciicode.com.ar/) table.)
 

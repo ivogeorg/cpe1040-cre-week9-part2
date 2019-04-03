@@ -52,15 +52,38 @@ Use a programmatic *sum-of-powers and 2s-complement* interpretation for the bit-
 ### 3. Data type: Floating-point real
 For this one, you have to write a full-fledged IEEE 754 bit-pattern decoder.
 
+### Value
+-1.0481863E-29 (or -1.0481863 x 10^-29) (Check for yourself at the [Float Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html).)
+
 #### Notes:
 1. Internally, all reals are represented in the IEEE 754 *binary64* format.
 2. There are no functions for converting bit strings to floating-point reals following the IEEE 754 interpretation.
 
+#### Example code
+IN PROGRESS
+
 ### 4. Data type: ASCII characters
 ASCII characters are each 8-bits long, or, 1-byte long. Write a function to interpret the 32-bit string as 4 8-bit strings, and convert each one to the corresponding ASCII character.
+```python
+bit_pattern = '10001111010101001001100011110010'
+c0 = '10001111'  # 143
+c1 = '01010100'  #  84
+c2 = '10011000'  # 152
+c3 = '11110010'  # 242
+```
+
+#### Value
+Å (Capital letter A with a ring)
+T (Capital letter T)
+ÿ (Lowercase letter y with diaeresis)
+‗ (underline or underscore)
+
+(Check for yourself in the [Extended ASCII](https://theasciicode.com.ar/) table.)
 
 #### Notes:
 1. Python uses Unicode UTF-8 formatting for strings and characters, so it won't interpret ASCII automatically.
+2. The ASCII table contains only the first half of the characters that are represented with 8 bits, that is, only those which are represented with 7 bits. The [Extended ASCII](https://theasciicode.com.ar/) table contains the full list.
+3. A lot of the ASCII characters most probably cannot be represented on the micro:bit without defining our own micro:bit Images for them.
 
 ## Submission
 

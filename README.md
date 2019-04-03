@@ -28,10 +28,10 @@ while True:
 ```
 
 #### Value
-2404686066
+2404686066 (Check for yourself on [Google](https://www.google.com/search?ei=uRulXOyiE4OitQXm6bSQCg&q=2404686066+in+binary&oq=2404686066+in+binary&gs_l=psy-ab.3...79519.81647..82231...0.0..0.153.1571.0j11......0....2j1..gws-wiz.......33i299j33i10.hED5KHBW2vg).)
 
 #### Notes:
-1. Python maintains the illusion of *infinite* unsigned integers, that is to say, no fixed width for the bit string. So, a leading 1 does not mean a negative integer, as in 2s complement signed integer notation, and so the above bit string is interpreted as a 33-bit **unsigned** integer. Check for yourself on [Google](https://www.google.com/search?ei=uRulXOyiE4OitQXm6bSQCg&q=2404686066+in+binary&oq=2404686066+in+binary&gs_l=psy-ab.3...79519.81647..82231...0.0..0.153.1571.0j11......0....2j1..gws-wiz.......33i299j33i10.hED5KHBW2vg). The above expression will give you the right unsigned decimal integer for a bit string of any length!
+1. Python maintains the illusion of *infinite* unsigned integers, that is to say, no fixed width for the bit string. So, a leading 1 does not mean a negative integer, as in 2s complement signed integer notation, and so the above bit string is interpreted as a 33-bit **unsigned** integer. The above expression will give you the right unsigned decimal integer for a bit string of any length!
 2. As a result, you can only count on the correct interpretation for 32-bit patterns that start with a leading 0. For the other cases, you have to use *2s-complement interpretation* programmatically, by writing a sum-of-powers arithmetic expression and evaluating it to get the decimal value.
 
 #### Example code
@@ -41,7 +41,7 @@ while True:
 Use a programmatic *sum-of-powers and 2s-complement* interpretation for the bit-pattern format. Patterns starting with 0 are *positive*, and patterns starting with 1 are *negative*. You can use the [unsigned case](unsigned-integer) code as a basis.
 
 #### Value
--1890281228
+-1890281228 (Check for yourself at [Exploring Binary](https://www.exploringbinary.com/twos-complement-converter/).)
 
 #### Notes:
 1. Consider using the same code for both *unsigned* and *signed* integers, if you want to have modular and clean code.

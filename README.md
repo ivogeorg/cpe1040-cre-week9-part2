@@ -76,14 +76,15 @@ c3 = '11110010'  # 242
 - Å (Capital letter A with a ring)
 - T (Capital letter T)
 - ÿ (Lowercase letter y with diaeresis)
-- ‗ (underline or underscore)
+- ≥ (greater or equal)
 
-(Check for yourself in the [Extended ASCII](https://www.ascii-code.com/) table.)
+(Check for yourself in the [Extended ASCII](https://en.wikipedia.org/wiki/Code_page_437) table.)
 
 #### Notes:
 1. Python uses Unicode UTF-8 formatting for strings and characters, so it won't interpret ASCII automatically.
-2. The ASCII table contains only the first half of the characters that are represented with 8 bits, that is, only those which are represented with 7 bits. The [Extended ASCII](https://www.ascii-code.com/) table contains the full list.
-3. A lot of the ASCII characters most probably cannot be represented on the micro:bit without defining our own micro:bit Images for them.
+2. The ASCII table contains only the first half of the characters that are represented with 8 bits, that is, only those which are represented with 7 bits. Those are standard and there is one widely accepted set of them.
+3. The [Extended ASCII](https://en.wikipedia.org/wiki/Code_page_437) table contains the full list. However, there are numerous ASCII table extensions, so the referenced one, while probably the most widely used, is only one of many.
+4. A lot of the ASCII characters most probably cannot be represented on the micro:bit without defining our own micro:bit Images for them. The micro:bit shows `??` if asked to represent an unrecognized 8-bit character code.
 
 ## Submission
 
@@ -93,6 +94,7 @@ c3 = '11110010'  # 242
 4. Code in PyCharm and mu, and test until you are satisfied with the functionality.
 5. Commit your code in PyCharm (or an alternative Git interface).
 6. Push to remote on Github.
+7. **Important:** Submit the URL of your remote repository on [Google Classroom](https://classroom.google.com/u/0/c/Mjc4NzMyMzI1MTda/a/MzQ3NTEwMjI1MjVa/details), as a private comment.
 
 ## Guidance
 

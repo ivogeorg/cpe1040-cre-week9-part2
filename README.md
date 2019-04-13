@@ -41,7 +41,7 @@ while True:
 Use a programmatic *sum-of-powers and 2s-complement* interpretation for the bit-pattern format. Patterns starting with 0 are *positive*, and patterns starting with 1 are *negative*. You can use the [unsigned case](unsigned-integer) code as a basis.
 
 #### Value
--1890281228 (Check for yourself at [Exploring Binary](https://www.exploringbinary.com/twos-complement-converter/).)
+-1890281230 (Check for yourself at [Exploring Binary](https://www.exploringbinary.com/twos-complement-converter/).)
 
 #### Notes:
 1. Consider using the same code for both *unsigned* and *signed* integers, if you want to have modular and clean code.

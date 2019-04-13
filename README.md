@@ -94,6 +94,7 @@ c3 = '11110010'  # 242
 4. Code in PyCharm and mu, and test until you are satisfied with the functionality.
 5. Commit your code in PyCharm (or an alternative Git interface).
 6. Push to remote on Github.
+7. **Important:** Submit the URL of your remote repository on [Google Classroom](https://classroom.google.com/u/0/c/Mjc4NzMyMzI1MTda/a/MzQ3NTEwMjI1MjVa/details), as a private comment.
 
 ## Guidance
 
